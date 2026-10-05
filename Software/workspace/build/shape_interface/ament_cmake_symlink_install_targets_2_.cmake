@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface/rosidl_generator_py/shape_interface/shape_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "shape_interface__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/shape_interface")

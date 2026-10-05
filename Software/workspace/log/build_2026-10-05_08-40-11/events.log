@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (-) JobUnselected: {'identifier': 'hb_description'}
+[0.000843] (-) JobUnselected: {'identifier': 'shape_interface'}
+[0.000970] (-) JobUnselected: {'identifier': 'task_1b'}
+[0.001035] (-) JobUnselected: {'identifier': 'task_1c'}
+[0.001097] (task_1a) JobQueued: {'identifier': 'task_1a', 'dependencies': OrderedDict([('shape_interface', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface')])}
+[0.001177] (task_1a) JobStarted: {'identifier': 'task_1a'}
+[0.028146] (task_1a) JobProgress: {'identifier': 'task_1a', 'progress': 'cmake'}
+[0.030498] (task_1a) JobProgress: {'identifier': 'task_1a', 'progress': 'build'}
+[0.033082] (task_1a) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a', '--', '-j12', '-l12'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[0.098157] (-) TimerEvent: {}
+[0.165530] (task_1a) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_task_1a\n'}
+[0.198402] (-) TimerEvent: {}
+[0.298866] (-) TimerEvent: {}
+[0.399268] (-) TimerEvent: {}
+[0.499646] (-) TimerEvent: {}
+[0.599990] (-) TimerEvent: {}
+[0.629173] (task_1a) StdoutLine: {'line': b'running egg_info\n'}
+[0.630608] (task_1a) StdoutLine: {'line': b'writing task_1a.egg-info/PKG-INFO\n'}
+[0.632773] (task_1a) StdoutLine: {'line': b'writing dependency_links to task_1a.egg-info/dependency_links.txt\n'}
+[0.633063] (task_1a) StdoutLine: {'line': b'writing top-level names to task_1a.egg-info/top_level.txt\n'}
+[0.635629] (task_1a) StdoutLine: {'line': b"reading manifest file 'task_1a.egg-info/SOURCES.txt'\n"}
+[0.636757] (task_1a) StdoutLine: {'line': b"writing manifest file 'task_1a.egg-info/SOURCES.txt'\n"}
+[0.688287] (task_1a) StdoutLine: {'line': b'Built target ament_cmake_python_build_task_1a_egg\n'}
+[0.700261] (-) TimerEvent: {}
+[0.710509] (task_1a) CommandEnded: {'returncode': 0}
+[0.712854] (task_1a) JobProgress: {'identifier': 'task_1a', 'progress': 'install'}
+[0.727515] (task_1a) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[0.746967] (task_1a) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.748169] (task_1a) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.748613] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/lib/task_1a/pixel_to_world_service\n'}
+[0.749301] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/pythonpath.sh\n'}
+[0.749595] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/pythonpath.dsv\n'}
+[0.750305] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[0.750616] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[0.751027] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[0.751340] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[0.751734] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a/__init__.py\n'}
+[0.752045] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a/camera_detection.py\n'}
+[0.752455] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/ament_index/resource_index/package_run_dependencies/task_1a\n'}
+[0.752877] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/ament_index/resource_index/parent_prefix_path/task_1a\n'}
+[0.753265] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/ament_prefix_path.sh\n'}
+[0.753601] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/ament_prefix_path.dsv\n'}
+[0.753816] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/path.sh\n'}
+[0.754022] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/path.dsv\n'}
+[0.754243] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/local_setup.bash\n'}
+[0.754544] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/local_setup.sh\n'}
+[0.754849] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/local_setup.zsh\n'}
+[0.755071] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/local_setup.dsv\n'}
+[0.755273] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/package.dsv\n'}
+[0.770791] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/ament_index/resource_index/packages/task_1a\n'}
+[0.771245] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/cmake/task_1aConfig.cmake\n'}
+[0.771560] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/cmake/task_1aConfig-version.cmake\n'}
+[0.771845] (task_1a) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/package.xml\n'}
+[0.800419] (-) TimerEvent: {}
+[0.852216] (task_1a) StdoutLine: {'line': b"Listing '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a'...\n"}
+[0.852679] (task_1a) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a/camera_detection.py'...\n"}
+[0.862567] (task_1a) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/lib/task_1a/camera_detection\n'}
+[0.866981] (task_1a) CommandEnded: {'returncode': 0}
+[0.901246] (-) TimerEvent: {}
+[0.906223] (task_1a) JobEnded: {'identifier': 'task_1a', 'rc': 0}
+[0.907755] (-) EventReactorShutdown: {}

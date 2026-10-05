@@ -1,0 +1,16 @@
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/lib/task_1c/shape_service
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/ament_index/resource_index/package_run_dependencies/task_1c
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/ament_index/resource_index/parent_prefix_path/task_1c
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/environment/ament_prefix_path.sh
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/environment/ament_prefix_path.dsv
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/environment/path.sh
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/environment/path.dsv
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/local_setup.bash
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/local_setup.sh
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/local_setup.zsh
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/local_setup.dsv
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/package.dsv
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/ament_index/resource_index/packages/task_1c
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/cmake/task_1cConfig.cmake
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/cmake/task_1cConfig-version.cmake
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/package.xml

@@ -1,0 +1,1 @@
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface/rosidl_generator_cpp/shape_interface/srv/detail/get_shape__traits.hpp

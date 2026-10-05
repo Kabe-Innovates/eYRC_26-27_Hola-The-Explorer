@@ -1,0 +1,1 @@
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b/ament_cmake_core/task_1bConfig-version.cmake

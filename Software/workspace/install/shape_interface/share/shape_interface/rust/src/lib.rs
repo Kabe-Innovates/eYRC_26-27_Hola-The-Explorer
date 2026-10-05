@@ -1,0 +1,1 @@
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface/rosidl_generator_rs/shape_interface/rust/src/lib.rs

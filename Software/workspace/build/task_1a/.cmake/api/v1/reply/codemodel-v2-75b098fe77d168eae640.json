@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-740e6649d2ba8f6fc796.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "task_1a",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_task_1a_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_task_1a_egg-88426b10266efc828e84.json",
+					"name" : "ament_cmake_python_build_task_1a_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_task_1a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_task_1a-49cda6c1c9a8d5f63dd0.json",
+					"name" : "ament_cmake_python_symlink_task_1a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_1a_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_1a_uninstall-d05aee4c14f64673ce39.json",
+					"name" : "task_1a_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-be026d18d0bfc07eb1d8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a",
+		"source" : "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/task_1a"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/lib/task_1a/camera_detection

@@ -1,0 +1,674 @@
+[0.000000] (-) TimerEvent: {}
+[0.000155] (shape_interface) JobQueued: {'identifier': 'shape_interface', 'dependencies': OrderedDict()}
+[0.000208] (task_1b) JobQueued: {'identifier': 'task_1b', 'dependencies': OrderedDict()}
+[0.000238] (task_1a) JobQueued: {'identifier': 'task_1a', 'dependencies': OrderedDict([('shape_interface', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface')])}
+[0.000272] (task_1c) JobQueued: {'identifier': 'task_1c', 'dependencies': OrderedDict([('shape_interface', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface')])}
+[0.000299] (hb_description) JobQueued: {'identifier': 'hb_description', 'dependencies': OrderedDict([('shape_interface', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface'), ('task_1a', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a')])}
+[0.001335] (shape_interface) JobStarted: {'identifier': 'shape_interface'}
+[0.013467] (task_1b) JobStarted: {'identifier': 'task_1b'}
+[0.028338] (shape_interface) JobProgress: {'identifier': 'shape_interface', 'progress': 'cmake'}
+[0.030515] (shape_interface) Command: {'cmd': ['/usr/bin/cmake', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/shape_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036912] (task_1b) JobProgress: {'identifier': 'task_1b', 'progress': 'cmake'}
+[0.038486] (task_1b) Command: {'cmd': ['/usr/bin/cmake', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/task_1b', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098850] (-) TimerEvent: {}
+[0.160672] (shape_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.184203] (task_1b) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199012] (-) TimerEvent: {}
+[0.292829] (shape_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299176] (-) TimerEvent: {}
+[0.317622] (shape_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.357928] (task_1b) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.373415] (task_1b) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399342] (-) TimerEvent: {}
+[0.492960] (shape_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.499543] (-) TimerEvent: {}
+[0.519529] (shape_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.520267] (shape_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.520967] (shape_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.527304] (shape_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.541971] (task_1b) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.561209] (task_1b) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.561765] (task_1b) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.562481] (task_1b) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.568554] (task_1b) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599714] (-) TimerEvent: {}
+[0.700051] (-) TimerEvent: {}
+[0.725006] (shape_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.725525] (task_1b) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.740570] (task_1b) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.741386] (task_1b) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.742142] (task_1b) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.746393] (task_1b) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.747335] (shape_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.747634] (shape_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.748693] (shape_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.752816] (shape_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.800206] (-) TimerEvent: {}
+[0.900617] (-) TimerEvent: {}
+[1.001029] (-) TimerEvent: {}
+[1.076431] (task_1b) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.101285] (-) TimerEvent: {}
+[1.157462] (shape_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.201446] (-) TimerEvent: {}
+[1.203859] (task_1b) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.283884] (shape_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.301709] (-) TimerEvent: {}
+[1.338871] (shape_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.344251] (shape_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.356234] (shape_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.401988] (-) TimerEvent: {}
+[1.432556] (shape_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.502147] (-) TimerEvent: {}
+[1.572101] (task_1b) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.577278] (task_1b) StdoutLine: {'line': b'-- Generating done\n'}
+[1.580477] (task_1b) StdoutLine: {'line': b'-- Build files have been written to: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b\n'}
+[1.586767] (task_1b) CommandEnded: {'returncode': 0}
+[1.588015] (task_1b) JobProgress: {'identifier': 'task_1b', 'progress': 'build'}
+[1.590416] (task_1b) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b', '--', '-j12', '-l12'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.602307] (-) TimerEvent: {}
+[1.702738] (-) TimerEvent: {}
+[1.717765] (task_1b) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_task_1b\n'}
+[1.802903] (-) TimerEvent: {}
+[1.903228] (-) TimerEvent: {}
+[2.003687] (-) TimerEvent: {}
+[2.104005] (-) TimerEvent: {}
+[2.131758] (task_1b) StdoutLine: {'line': b'running egg_info\n'}
+[2.132955] (task_1b) StdoutLine: {'line': b'creating task_1b.egg-info\n'}
+[2.133329] (task_1b) StdoutLine: {'line': b'writing task_1b.egg-info/PKG-INFO\n'}
+[2.134160] (task_1b) StdoutLine: {'line': b'writing dependency_links to task_1b.egg-info/dependency_links.txt\n'}
+[2.134419] (task_1b) StdoutLine: {'line': b'writing top-level names to task_1b.egg-info/top_level.txt\n'}
+[2.134669] (task_1b) StdoutLine: {'line': b"writing manifest file 'task_1b.egg-info/SOURCES.txt'\n"}
+[2.137691] (task_1b) StdoutLine: {'line': b"reading manifest file 'task_1b.egg-info/SOURCES.txt'\n"}
+[2.138450] (task_1b) StdoutLine: {'line': b"writing manifest file 'task_1b.egg-info/SOURCES.txt'\n"}
+[2.149295] (shape_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.192112] (task_1b) StdoutLine: {'line': b'Built target ament_cmake_python_build_task_1b_egg\n'}
+[2.204159] (-) TimerEvent: {}
+[2.211587] (task_1b) CommandEnded: {'returncode': 0}
+[2.213225] (task_1b) JobProgress: {'identifier': 'task_1b', 'progress': 'install'}
+[2.233290] (task_1b) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1b'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.256783] (task_1b) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.258410] (task_1b) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.259416] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/environment/pythonpath.sh\n'}
+[2.280204] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/environment/pythonpath.dsv\n'}
+[2.297150] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/local/lib/python3.10/dist-packages/task_1b-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[2.304430] (-) TimerEvent: {}
+[2.323096] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/local/lib/python3.10/dist-packages/task_1b-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[2.347396] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/local/lib/python3.10/dist-packages/task_1b-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[2.365748] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/local/lib/python3.10/dist-packages/task_1b-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[2.381306] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/local/lib/python3.10/dist-packages/task_1b/__init__.py\n'}
+[2.400959] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/local/lib/python3.10/dist-packages/task_1b/inverse_kinematics.py\n'}
+[2.404695] (-) TimerEvent: {}
+[2.416989] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/lib/task_1b/cmd_vel_publisher\n'}
+[2.437824] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/ament_index/resource_index/package_run_dependencies/task_1b\n'}
+[2.453788] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/ament_index/resource_index/parent_prefix_path/task_1b\n'}
+[2.474261] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/environment/ament_prefix_path.sh\n'}
+[2.498430] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/environment/ament_prefix_path.dsv\n'}
+[2.504907] (-) TimerEvent: {}
+[2.523100] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/environment/path.sh\n'}
+[2.548339] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/environment/path.dsv\n'}
+[2.569480] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/local_setup.bash\n'}
+[2.570270] (shape_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.594714] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/local_setup.sh\n'}
+[2.605055] (-) TimerEvent: {}
+[2.621469] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/local_setup.zsh\n'}
+[2.639532] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/local_setup.dsv\n'}
+[2.659340] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/package.dsv\n'}
+[2.682453] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/ament_index/resource_index/packages/task_1b\n'}
+[2.705328] (-) TimerEvent: {}
+[2.707426] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/cmake/task_1bConfig.cmake\n'}
+[2.728123] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/cmake/task_1bConfig-version.cmake\n'}
+[2.751758] (task_1b) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/share/task_1b/package.xml\n'}
+[2.805637] (-) TimerEvent: {}
+[2.843205] (task_1b) StdoutLine: {'line': b"Listing '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/local/lib/python3.10/dist-packages/task_1b'...\n"}
+[2.843674] (task_1b) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/local/lib/python3.10/dist-packages/task_1b/__init__.py'...\n"}
+[2.843941] (task_1b) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/local/lib/python3.10/dist-packages/task_1b/inverse_kinematics.py'...\n"}
+[2.852882] (task_1b) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1b/lib/task_1b/inverse_kinematics\n'}
+[2.858396] (task_1b) CommandEnded: {'returncode': 0}
+[2.897314] (task_1b) JobEnded: {'identifier': 'task_1b', 'rc': 0}
+[2.905810] (-) TimerEvent: {}
+[3.006161] (-) TimerEvent: {}
+[3.106622] (-) TimerEvent: {}
+[3.120221] (shape_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.175350] (shape_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.178447] (shape_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.206781] (-) TimerEvent: {}
+[3.231772] (shape_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.232220] (shape_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.232448] (shape_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.232691] (shape_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.279368] (shape_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.306939] (-) TimerEvent: {}
+[3.407379] (-) TimerEvent: {}
+[3.469401] (shape_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.506955] (shape_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.507376] (-) TimerEvent: {}
+[3.509034] (shape_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.515930] (shape_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.573929] (shape_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[3.593142] (shape_interface) StdoutLine: {'line': b'-- Build files have been written to: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface\n'}
+[3.602610] (shape_interface) CommandEnded: {'returncode': 0}
+[3.603994] (shape_interface) JobProgress: {'identifier': 'shape_interface', 'progress': 'build'}
+[3.604632] (shape_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface', '--', '-j12', '-l12'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.607509] (-) TimerEvent: {}
+[3.702621] (shape_interface) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[3.707737] (-) TimerEvent: {}
+[3.733693] (shape_interface) StdoutLine: {'line': b'[  4%] Generating Rust code for ROS interfaces\n'}
+[3.735513] (shape_interface) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_shape_interface\n'}
+[3.736126] (shape_interface) StdoutLine: {'line': b'[  6%] Generating C++ code for ROS interfaces\n'}
+[3.807899] (-) TimerEvent: {}
+[3.908198] (-) TimerEvent: {}
+[4.008554] (-) TimerEvent: {}
+[4.108885] (-) TimerEvent: {}
+[4.156927] (shape_interface) StdoutLine: {'line': b'running egg_info\n'}
+[4.158064] (shape_interface) StdoutLine: {'line': b'creating shape_interface.egg-info\n'}
+[4.158767] (shape_interface) StdoutLine: {'line': b'writing shape_interface.egg-info/PKG-INFO\n'}
+[4.159454] (shape_interface) StdoutLine: {'line': b'writing dependency_links to shape_interface.egg-info/dependency_links.txt\n'}
+[4.159739] (shape_interface) StdoutLine: {'line': b'writing top-level names to shape_interface.egg-info/top_level.txt\n'}
+[4.159970] (shape_interface) StdoutLine: {'line': b"writing manifest file 'shape_interface.egg-info/SOURCES.txt'\n"}
+[4.162842] (shape_interface) StdoutLine: {'line': b"reading manifest file 'shape_interface.egg-info/SOURCES.txt'\n"}
+[4.163738] (shape_interface) StdoutLine: {'line': b"writing manifest file 'shape_interface.egg-info/SOURCES.txt'\n"}
+[4.209082] (-) TimerEvent: {}
+[4.222163] (shape_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_shape_interface_egg\n'}
+[4.309284] (-) TimerEvent: {}
+[4.409647] (-) TimerEvent: {}
+[4.510724] (-) TimerEvent: {}
+[4.579359] (shape_interface) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/shape_interface__rosidl_generator_c.dir/rosidl_generator_c/shape_interface/msg/detail/shape__functions.c.o\n'}
+[4.583665] (shape_interface) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/shape_interface__rosidl_generator_c.dir/rosidl_generator_c/shape_interface/srv/detail/get_shape__functions.c.o\n'}
+[4.584534] (shape_interface) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/shape_interface__rosidl_generator_c.dir/rosidl_generator_c/shape_interface/srv/detail/pixel_to_world__functions.c.o\n'}
+[4.610877] (-) TimerEvent: {}
+[4.628111] (shape_interface) StdoutLine: {'line': b'[ 12%] Built target shape_interface__rs\n'}
+[4.711114] (-) TimerEvent: {}
+[4.738325] (shape_interface) StdoutLine: {'line': b'[ 14%] Linking C shared library libshape_interface__rosidl_generator_c.so\n'}
+[4.811327] (-) TimerEvent: {}
+[4.820058] (shape_interface) StdoutLine: {'line': b'[ 14%] Built target shape_interface__rosidl_generator_c\n'}
+[4.841042] (shape_interface) StdoutLine: {'line': b'[ 16%] Generating C type support dispatch for ROS interfaces\n'}
+[4.847914] (shape_interface) StdoutLine: {'line': b'[ 18%] Generating C introspection for ROS interfaces\n'}
+[4.849784] (shape_interface) StdoutLine: {'line': b'[ 20%] Generating C type support for eProsima Fast-RTPS\n'}
+[4.911520] (-) TimerEvent: {}
+[5.011841] (-) TimerEvent: {}
+[5.045688] (shape_interface) StdoutLine: {'line': b'[ 20%] Built target shape_interface__cpp\n'}
+[5.064466] (shape_interface) StdoutLine: {'line': b'[ 22%] Generating C++ type support dispatch for ROS interfaces\n'}
+[5.071694] (shape_interface) StdoutLine: {'line': b'[ 25%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[5.074639] (shape_interface) StdoutLine: {'line': b'[ 27%] Generating C++ introspection for ROS interfaces\n'}
+[5.112001] (-) TimerEvent: {}
+[5.212317] (-) TimerEvent: {}
+[5.313923] (-) TimerEvent: {}
+[5.414347] (-) TimerEvent: {}
+[5.477551] (shape_interface) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_interface/srv/get_shape__type_support.cpp.o\n'}
+[5.477746] (shape_interface) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_interface/srv/pixel_to_world__type_support.cpp.o\n'}
+[5.477821] (shape_interface) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_interface/msg/shape__type_support.cpp.o\n'}
+[5.515655] (-) TimerEvent: {}
+[5.557440] (shape_interface) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_interface/srv/detail/dds_fastrtps/pixel_to_world__type_support.cpp.o\n'}
+[5.557627] (shape_interface) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_interface/msg/detail/dds_fastrtps/shape__type_support.cpp.o\n'}
+[5.558494] (shape_interface) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_interface/srv/detail/dds_fastrtps/get_shape__type_support.cpp.o\n'}
+[5.616749] (shape_interface) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_interface/srv/pixel_to_world__type_support.cpp.o\n'}
+[5.616908] (-) TimerEvent: {}
+[5.616929] (shape_interface) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_interface/msg/shape__type_support.cpp.o\n'}
+[5.617108] (shape_interface) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_interface/srv/get_shape__type_support.cpp.o\n'}
+[5.717226] (-) TimerEvent: {}
+[5.726527] (shape_interface) StdoutLine: {'line': b'[ 47%] Linking CXX shared library libshape_interface__rosidl_typesupport_c.so\n'}
+[5.767631] (shape_interface) StdoutLine: {'line': b'[ 50%] Building C object CMakeFiles/shape_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_interface/srv/detail/get_shape__type_support.c.o\n'}
+[5.767874] (shape_interface) StdoutLine: {'line': b'[ 54%] Building C object CMakeFiles/shape_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_interface/srv/detail/pixel_to_world__type_support.c.o\n'}
+[5.767938] (shape_interface) StdoutLine: {'line': b'[ 54%] Building C object CMakeFiles/shape_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_interface/msg/detail/shape__type_support.c.o\n'}
+[5.802005] (shape_interface) StdoutLine: {'line': b'[ 54%] Built target shape_interface__rosidl_typesupport_c\n'}
+[5.817496] (-) TimerEvent: {}
+[5.831648] (shape_interface) StdoutLine: {'line': b'[ 56%] Linking C shared library libshape_interface__rosidl_typesupport_introspection_c.so\n'}
+[5.847656] (shape_interface) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_interface/srv/detail/pixel_to_world__type_support.cpp.o\n'}
+[5.847885] (shape_interface) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_interface/srv/detail/get_shape__type_support.cpp.o\n'}
+[5.850052] (shape_interface) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_interface/msg/detail/shape__type_support.cpp.o\n'}
+[5.851099] (shape_interface) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_interface/srv/detail/get_shape__type_support_c.cpp.o\n'}
+[5.851283] (shape_interface) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_interface/srv/detail/pixel_to_world__type_support_c.cpp.o\n'}
+[5.871634] (shape_interface) StdoutLine: {'line': b'[ 66%] Built target shape_interface__rosidl_typesupport_introspection_c\n'}
+[5.900875] (shape_interface) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_interface/msg/detail/shape__type_support_c.cpp.o\n'}
+[5.917794] (-) TimerEvent: {}
+[6.018393] (-) TimerEvent: {}
+[6.118854] (-) TimerEvent: {}
+[6.168077] (shape_interface) StdoutLine: {'line': b'[ 70%] Linking CXX shared library libshape_interface__rosidl_typesupport_cpp.so\n'}
+[6.213121] (shape_interface) StdoutLine: {'line': b'[ 70%] Built target shape_interface__rosidl_typesupport_cpp\n'}
+[6.218977] (-) TimerEvent: {}
+[6.319213] (-) TimerEvent: {}
+[6.405385] (shape_interface) StdoutLine: {'line': b'[ 72%] Linking CXX shared library libshape_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.419495] (-) TimerEvent: {}
+[6.423727] (shape_interface) StdoutLine: {'line': b'[ 75%] Linking CXX shared library libshape_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[6.460501] (shape_interface) StdoutLine: {'line': b'[ 75%] Built target shape_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[6.461040] (shape_interface) StdoutLine: {'line': b'[ 77%] Linking CXX shared library libshape_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[6.493816] (shape_interface) StdoutLine: {'line': b'[ 77%] Built target shape_interface__rosidl_typesupport_fastrtps_c\n'}
+[6.519682] (-) TimerEvent: {}
+[6.525430] (shape_interface) StdoutLine: {'line': b'[ 77%] Built target shape_interface__rosidl_typesupport_introspection_cpp\n'}
+[6.557443] (shape_interface) StdoutLine: {'line': b'[ 77%] Built target shape_interface\n'}
+[6.587888] (shape_interface) StdoutLine: {'line': b'[ 79%] Generating Python code for ROS interfaces\n'}
+[6.619792] (-) TimerEvent: {}
+[6.719977] (-) TimerEvent: {}
+[6.820169] (-) TimerEvent: {}
+[6.920430] (-) TimerEvent: {}
+[6.992508] (shape_interface) StdoutLine: {'line': b'[ 79%] Built target shape_interface__py\n'}
+[7.013741] (shape_interface) StdoutLine: {'line': b'[ 81%] Building C object CMakeFiles/shape_interface__rosidl_generator_py.dir/rosidl_generator_py/shape_interface/srv/_pixel_to_world_s.c.o\n'}
+[7.015200] (shape_interface) StdoutLine: {'line': b'[ 83%] Building C object CMakeFiles/shape_interface__rosidl_generator_py.dir/rosidl_generator_py/shape_interface/srv/_get_shape_s.c.o\n'}
+[7.015601] (shape_interface) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/shape_interface__rosidl_generator_py.dir/rosidl_generator_py/shape_interface/msg/_shape_s.c.o\n'}
+[7.020610] (-) TimerEvent: {}
+[7.120809] (-) TimerEvent: {}
+[7.143124] (shape_interface) StdoutLine: {'line': b'[ 87%] Linking C shared library rosidl_generator_py/shape_interface/libshape_interface__rosidl_generator_py.so\n'}
+[7.198995] (shape_interface) StdoutLine: {'line': b'[ 87%] Built target shape_interface__rosidl_generator_py\n'}
+[7.220995] (-) TimerEvent: {}
+[7.230820] (shape_interface) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/shape_interface/_shape_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[7.232554] (shape_interface) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/shape_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/shape_interface/_shape_interface_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[7.233215] (shape_interface) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/shape_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/shape_interface/_shape_interface_s.ep.rosidl_typesupport_c.c.o\n'}
+[7.321103] (-) TimerEvent: {}
+[7.341537] (shape_interface) StdoutLine: {'line': b'[ 95%] Linking C shared library rosidl_generator_py/shape_interface/shape_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.342728] (shape_interface) StdoutLine: {'line': b'[ 97%] Linking C shared library rosidl_generator_py/shape_interface/shape_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.369483] (shape_interface) StdoutLine: {'line': b'[ 97%] Built target shape_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[7.369933] (shape_interface) StdoutLine: {'line': b'[ 97%] Built target shape_interface__rosidl_typesupport_c__pyext\n'}
+[7.371339] (shape_interface) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/shape_interface/shape_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.417292] (shape_interface) StdoutLine: {'line': b'[100%] Built target shape_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.421265] (-) TimerEvent: {}
+[7.433730] (shape_interface) CommandEnded: {'returncode': 0}
+[7.434716] (shape_interface) JobProgress: {'identifier': 'shape_interface', 'progress': 'install'}
+[7.435150] (shape_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/shape_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.448896] (shape_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.450191] (shape_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.450693] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/ament_index/resource_index/rosidl_interfaces/shape_interface\n'}
+[7.461705] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__functions.h\n'}
+[7.472493] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__struct.h\n'}
+[7.483551] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__type_support.h\n'}
+[7.494188] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.505168] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/shape.h\n'}
+[7.516178] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__functions.h\n'}
+[7.521494] (-) TimerEvent: {}
+[7.528198] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__struct.h\n'}
+[7.540267] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__type_support.h\n'}
+[7.553965] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__functions.h\n'}
+[7.565697] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__struct.h\n'}
+[7.576931] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__type_support.h\n'}
+[7.588165] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/get_shape.h\n'}
+[7.597055] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/pixel_to_world.h\n'}
+[7.606449] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/environment/library_path.sh\n'}
+[7.616405] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/environment/library_path.dsv\n'}
+[7.621732] (-) TimerEvent: {}
+[7.628136] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__rosidl_typesupport_fastrtps_c.h\n'}
+[7.639605] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.654616] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__rosidl_typesupport_fastrtps_c.h\n'}
+[7.665293] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__rosidl_typesupport_fastrtps_c.h\n'}
+[7.676437] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__rosidl_typesupport_introspection_c.h\n'}
+[7.687167] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.698501] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__rosidl_typesupport_introspection_c.h\n'}
+[7.709447] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__rosidl_typesupport_introspection_c.h\n'}
+[7.721629] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__builder.hpp\n'}
+[7.721885] (-) TimerEvent: {}
+[7.733739] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__struct.hpp\n'}
+[7.744687] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__traits.hpp\n'}
+[7.755922] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__type_support.hpp\n'}
+[7.765940] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.776424] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/shape.hpp\n'}
+[7.787100] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__builder.hpp\n'}
+[7.797848] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__struct.hpp\n'}
+[7.808942] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__traits.hpp\n'}
+[7.820207] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__type_support.hpp\n'}
+[7.822003] (-) TimerEvent: {}
+[7.832136] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__builder.hpp\n'}
+[7.845163] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__struct.hpp\n'}
+[7.857367] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__traits.hpp\n'}
+[7.870749] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__type_support.hpp\n'}
+[7.882102] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/get_shape.hpp\n'}
+[7.893259] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/pixel_to_world.hpp\n'}
+[7.905334] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.917294] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.922237] (-) TimerEvent: {}
+[7.929067] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.941598] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.955604] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.967182] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.978105] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.989589] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/environment/pythonpath.sh\n'}
+[8.000990] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/environment/pythonpath.dsv\n'}
+[8.010910] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.020997] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.022460] (-) TimerEvent: {}
+[8.031134] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.042747] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.058299] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/__init__.py\n'}
+[8.067750] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/_shape_interface_s.ep.rosidl_typesupport_c.c\n'}
+[8.078097] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/_shape_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.089015] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/_shape_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.099721] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/libshape_interface__rosidl_generator_py.so\n'}
+[8.108854] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/__init__.py\n'}
+[8.120391] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/_shape.py\n'}
+[8.122702] (-) TimerEvent: {}
+[8.132289] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/_shape_s.c\n'}
+[8.144797] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.158374] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.170321] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.180729] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/__init__.py\n'}
+[8.191247] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_get_shape.py\n'}
+[8.200451] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_get_shape_s.c\n'}
+[8.210873] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_pixel_to_world.py\n'}
+[8.221366] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_pixel_to_world_s.c\n'}
+[8.222808] (-) TimerEvent: {}
+[8.231377] (shape_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.231730] (shape_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.232059] (shape_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.232433] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/ament_index/resource_index/rust_packages/shape_interface\n'}
+[8.244792] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/rust/Cargo.toml\n'}
+[8.257603] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/rust/build.rs\n'}
+[8.268820] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/rust/src/lib.rs\n'}
+[8.278415] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/rust/src/msg.rs\n'}
+[8.292545] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/rust/src/msg/rmw.rs\n'}
+[8.310116] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/rust/src/srv.rs\n'}
+[8.322984] (-) TimerEvent: {}
+[8.329310] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/rust/src/srv/rmw.rs\n'}
+[8.344883] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/srv/GetShape.idl\n'}
+[8.360333] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/srv/PixelToWorld.idl\n'}
+[8.374154] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/msg/Shape.idl\n'}
+[8.387271] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/srv/GetShape.srv\n'}
+[8.397733] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/srv/GetShape_Request.msg\n'}
+[8.408245] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/srv/GetShape_Response.msg\n'}
+[8.416322] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/srv/PixelToWorld.srv\n'}
+[8.423070] (-) TimerEvent: {}
+[8.423604] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/srv/PixelToWorld_Request.msg\n'}
+[8.436759] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/srv/PixelToWorld_Response.msg\n'}
+[8.452285] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/msg/Shape.msg\n'}
+[8.465642] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/ament_index/resource_index/package_run_dependencies/shape_interface\n'}
+[8.476900] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/ament_index/resource_index/parent_prefix_path/shape_interface\n'}
+[8.489801] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/environment/ament_prefix_path.sh\n'}
+[8.505073] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/environment/ament_prefix_path.dsv\n'}
+[8.518640] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/environment/path.sh\n'}
+[8.523202] (-) TimerEvent: {}
+[8.532832] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/environment/path.dsv\n'}
+[8.551778] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/local_setup.bash\n'}
+[8.563523] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/local_setup.sh\n'}
+[8.577257] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/local_setup.zsh\n'}
+[8.587277] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/local_setup.dsv\n'}
+[8.597993] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/package.dsv\n'}
+[8.609548] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/ament_index/resource_index/packages/shape_interface\n'}
+[8.621687] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[8.623431] (-) TimerEvent: {}
+[8.632463] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.644967] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.657504] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.669222] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.679934] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.690572] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.700949] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[8.710267] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interfaceConfig.cmake\n'}
+[8.722032] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interfaceConfig-version.cmake\n'}
+[8.725688] (-) TimerEvent: {}
+[8.737662] (shape_interface) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/package.xml\n'}
+[8.754960] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_generator_c.so\n'}
+[8.755506] (shape_interface) StdoutLine: {'line': b'-- Set runtime path of "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_generator_c.so" to ""\n'}
+[8.755748] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[8.756249] (shape_interface) StdoutLine: {'line': b'-- Set runtime path of "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.756433] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_introspection_c.so\n'}
+[8.756989] (shape_interface) StdoutLine: {'line': b'-- Set runtime path of "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.757177] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_c.so\n'}
+[8.757696] (shape_interface) StdoutLine: {'line': b'-- Set runtime path of "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_c.so" to ""\n'}
+[8.757870] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.758414] (shape_interface) StdoutLine: {'line': b'-- Set runtime path of "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.758570] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[8.759140] (shape_interface) StdoutLine: {'line': b'-- Set runtime path of "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.759291] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_cpp.so\n'}
+[8.759788] (shape_interface) StdoutLine: {'line': b'-- Set runtime path of "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[8.812311] (shape_interface) StdoutLine: {'line': b"Listing '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface'...\n"}
+[8.812490] (shape_interface) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/__init__.py'...\n"}
+[8.812550] (shape_interface) StdoutLine: {'line': b"Listing '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg'...\n"}
+[8.812628] (shape_interface) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/__init__.py'...\n"}
+[8.812686] (shape_interface) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/_shape.py'...\n"}
+[8.812735] (shape_interface) StdoutLine: {'line': b"Listing '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv'...\n"}
+[8.812784] (shape_interface) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/__init__.py'...\n"}
+[8.812842] (shape_interface) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_get_shape.py'...\n"}
+[8.812891] (shape_interface) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_pixel_to_world.py'...\n"}
+[8.818017] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_generator_py.so\n'}
+[8.818496] (shape_interface) StdoutLine: {'line': b'-- Set runtime path of "/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib/libshape_interface__rosidl_generator_py.so" to ""\n'}
+[8.818640] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_cExport.cmake\n'}
+[8.818919] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.819033] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.819188] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.819347] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.819524] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.819739] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_cExport.cmake\n'}
+[8.819921] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.820132] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_cppExport.cmake\n'}
+[8.820333] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.820528] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.820753] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.820947] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.821153] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_cppExport.cmake\n'}
+[8.821345] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.821556] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_pyExport.cmake\n'}
+[8.821750] (shape_interface) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.824978] (shape_interface) CommandEnded: {'returncode': 0}
+[8.825780] (-) TimerEvent: {}
+[8.850130] (shape_interface) JobEnded: {'identifier': 'shape_interface', 'rc': 0}
+[8.851133] (task_1a) JobStarted: {'identifier': 'task_1a'}
+[8.854379] (task_1c) JobStarted: {'identifier': 'task_1c'}
+[8.862329] (task_1a) JobProgress: {'identifier': 'task_1a', 'progress': 'cmake'}
+[8.863224] (task_1a) Command: {'cmd': ['/usr/bin/cmake', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/task_1a', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[8.868863] (task_1c) JobProgress: {'identifier': 'task_1c', 'progress': 'cmake'}
+[8.870018] (task_1c) Command: {'cmd': ['/usr/bin/cmake', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/task_1c', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1c', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1c'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[8.925940] (-) TimerEvent: {}
+[8.962854] (task_1a) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.969239] (task_1c) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[9.026073] (-) TimerEvent: {}
+[9.046662] (task_1a) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.051031] (task_1c) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.059266] (task_1a) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.063572] (task_1c) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.126199] (-) TimerEvent: {}
+[9.166869] (task_1a) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.167440] (task_1c) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.180348] (task_1c) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.180775] (task_1a) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.180918] (task_1c) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.181034] (task_1a) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.181327] (task_1c) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.181450] (task_1a) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.185950] (task_1a) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.186193] (task_1c) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.226453] (-) TimerEvent: {}
+[9.305263] (task_1c) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.307190] (task_1a) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.316634] (task_1c) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.317068] (task_1c) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.317692] (task_1c) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.320413] (task_1a) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.320828] (task_1a) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.321136] (task_1c) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.321384] (task_1a) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.324845] (task_1a) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.326688] (-) TimerEvent: {}
+[9.426921] (-) TimerEvent: {}
+[9.494099] (task_1c) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[9.509915] (task_1a) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[9.527045] (-) TimerEvent: {}
+[9.564174] (task_1c) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.576927] (task_1a) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.602027] (task_1c) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.627279] (-) TimerEvent: {}
+[9.692270] (task_1c) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.693299] (task_1c) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.694180] (task_1c) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.696178] (task_1c) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.698571] (task_1c) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.702960] (task_1c) StdoutLine: {'line': b'-- Generating done\n'}
+[9.705841] (task_1c) StdoutLine: {'line': b'-- Build files have been written to: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1c\n'}
+[9.712623] (task_1c) CommandEnded: {'returncode': 0}
+[9.713792] (task_1c) JobProgress: {'identifier': 'task_1c', 'progress': 'build'}
+[9.714446] (task_1c) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1c', '--', '-j12', '-l12'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1c', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1c'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[9.727519] (-) TimerEvent: {}
+[9.730751] (task_1a) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.809201] (task_1c) CommandEnded: {'returncode': 0}
+[9.811179] (task_1c) JobProgress: {'identifier': 'task_1c', 'progress': 'install'}
+[9.812867] (task_1c) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1c'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1c', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1c'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[9.827700] (-) TimerEvent: {}
+[9.830136] (task_1c) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.830942] (task_1c) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.831571] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/lib/task_1c/shape_service\n'}
+[9.848809] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/ament_index/resource_index/package_run_dependencies/task_1c\n'}
+[9.868934] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/ament_index/resource_index/parent_prefix_path/task_1c\n'}
+[9.889561] (task_1a) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.890565] (task_1a) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.891307] (task_1a) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.893078] (task_1a) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.893439] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/environment/ament_prefix_path.sh\n'}
+[9.895440] (task_1a) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.901177] (task_1a) StdoutLine: {'line': b'-- Generating done\n'}
+[9.904702] (task_1a) StdoutLine: {'line': b'-- Build files have been written to: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a\n'}
+[9.912855] (task_1a) CommandEnded: {'returncode': 0}
+[9.914486] (task_1a) JobProgress: {'identifier': 'task_1a', 'progress': 'build'}
+[9.915557] (task_1a) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a', '--', '-j12', '-l12'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[9.919290] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/environment/ament_prefix_path.dsv\n'}
+[9.927860] (-) TimerEvent: {}
+[9.941186] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/environment/path.sh\n'}
+[9.966039] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/environment/path.dsv\n'}
+[9.990613] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/local_setup.bash\n'}
+[10.013808] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/local_setup.sh\n'}
+[10.028031] (-) TimerEvent: {}
+[10.031089] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/local_setup.zsh\n'}
+[10.039943] (task_1a) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_task_1a\n'}
+[10.053327] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/local_setup.dsv\n'}
+[10.068707] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/package.dsv\n'}
+[10.092363] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/ament_index/resource_index/packages/task_1c\n'}
+[10.110270] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/cmake/task_1cConfig.cmake\n'}
+[10.128256] (-) TimerEvent: {}
+[10.134680] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/cmake/task_1cConfig-version.cmake\n'}
+[10.155944] (task_1c) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/share/task_1c/package.xml\n'}
+[10.172166] (task_1c) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1c/lib/task_1c/sim_control\n'}
+[10.177262] (task_1c) CommandEnded: {'returncode': 0}
+[10.207971] (task_1c) JobEnded: {'identifier': 'task_1c', 'rc': 0}
+[10.228492] (-) TimerEvent: {}
+[10.328982] (-) TimerEvent: {}
+[10.429428] (-) TimerEvent: {}
+[10.477449] (task_1a) StdoutLine: {'line': b'running egg_info\n'}
+[10.478558] (task_1a) StdoutLine: {'line': b'creating task_1a.egg-info\n'}
+[10.479328] (task_1a) StdoutLine: {'line': b'writing task_1a.egg-info/PKG-INFO\n'}
+[10.479772] (task_1a) StdoutLine: {'line': b'writing dependency_links to task_1a.egg-info/dependency_links.txt\n'}
+[10.480044] (task_1a) StdoutLine: {'line': b'writing top-level names to task_1a.egg-info/top_level.txt\n'}
+[10.480637] (task_1a) StdoutLine: {'line': b"writing manifest file 'task_1a.egg-info/SOURCES.txt'\n"}
+[10.483236] (task_1a) StdoutLine: {'line': b"reading manifest file 'task_1a.egg-info/SOURCES.txt'\n"}
+[10.484225] (task_1a) StdoutLine: {'line': b"writing manifest file 'task_1a.egg-info/SOURCES.txt'\n"}
+[10.529693] (-) TimerEvent: {}
+[10.537956] (task_1a) StdoutLine: {'line': b'Built target ament_cmake_python_build_task_1a_egg\n'}
+[10.558672] (task_1a) CommandEnded: {'returncode': 0}
+[10.560320] (task_1a) JobProgress: {'identifier': 'task_1a', 'progress': 'install'}
+[10.560915] (task_1a) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[10.574433] (task_1a) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.575548] (task_1a) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.576129] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/lib/task_1a/pixel_to_world_service\n'}
+[10.594860] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/pythonpath.sh\n'}
+[10.619139] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/pythonpath.dsv\n'}
+[10.629839] (-) TimerEvent: {}
+[10.634395] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[10.653426] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[10.667678] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[10.692437] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[10.711829] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a/__init__.py\n'}
+[10.730041] (-) TimerEvent: {}
+[10.736781] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a/camera_detection.py\n'}
+[10.754139] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/ament_index/resource_index/package_run_dependencies/task_1a\n'}
+[10.775323] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/ament_index/resource_index/parent_prefix_path/task_1a\n'}
+[10.791270] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/ament_prefix_path.sh\n'}
+[10.805535] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/ament_prefix_path.dsv\n'}
+[10.823141] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/path.sh\n'}
+[10.830184] (-) TimerEvent: {}
+[10.837667] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/environment/path.dsv\n'}
+[10.859537] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/local_setup.bash\n'}
+[10.874304] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/local_setup.sh\n'}
+[10.892399] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/local_setup.zsh\n'}
+[10.914636] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/local_setup.dsv\n'}
+[10.930354] (-) TimerEvent: {}
+[10.932446] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/package.dsv\n'}
+[10.954194] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/ament_index/resource_index/packages/task_1a\n'}
+[10.968762] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/cmake/task_1aConfig.cmake\n'}
+[10.984976] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/cmake/task_1aConfig-version.cmake\n'}
+[11.005344] (task_1a) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/share/task_1a/package.xml\n'}
+[11.030598] (-) TimerEvent: {}
+[11.099352] (task_1a) StdoutLine: {'line': b"Listing '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a'...\n"}
+[11.099861] (task_1a) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a/__init__.py'...\n"}
+[11.100128] (task_1a) StdoutLine: {'line': b"Compiling '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages/task_1a/camera_detection.py'...\n"}
+[11.108956] (task_1a) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/lib/task_1a/camera_detection\n'}
+[11.112355] (task_1a) CommandEnded: {'returncode': 0}
+[11.131059] (-) TimerEvent: {}
+[11.136474] (task_1a) JobEnded: {'identifier': 'task_1a', 'rc': 0}
+[11.138184] (hb_description) JobStarted: {'identifier': 'hb_description'}
+[11.159404] (hb_description) JobProgress: {'identifier': 'hb_description', 'progress': 'cmake'}
+[11.161514] (hb_description) Command: {'cmd': ['/usr/bin/cmake', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/hb_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a:/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages:/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a:/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[11.231272] (-) TimerEvent: {}
+[11.293678] (hb_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[11.331492] (-) TimerEvent: {}
+[11.413282] (hb_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[11.428864] (hb_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.431792] (-) TimerEvent: {}
+[11.532142] (-) TimerEvent: {}
+[11.571071] (hb_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.585129] (hb_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.585934] (hb_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.586445] (hb_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.592471] (hb_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.632347] (-) TimerEvent: {}
+[11.732812] (-) TimerEvent: {}
+[11.770565] (hb_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.789552] (hb_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.790307] (hb_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.790909] (hb_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.795601] (hb_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[11.832973] (-) TimerEvent: {}
+[11.933306] (-) TimerEvent: {}
+[12.033716] (-) TimerEvent: {}
+[12.112537] (hb_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[12.133887] (-) TimerEvent: {}
+[12.234243] (-) TimerEvent: {}
+[12.244903] (hb_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[12.334408] (-) TimerEvent: {}
+[12.434792] (-) TimerEvent: {}
+[12.445703] (hb_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.449961] (hb_description) StdoutLine: {'line': b'-- Generating done\n'}
+[12.452653] (hb_description) StdoutLine: {'line': b'-- Build files have been written to: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description\n'}
+[12.459521] (hb_description) CommandEnded: {'returncode': 0}
+[12.461095] (hb_description) JobProgress: {'identifier': 'hb_description', 'progress': 'build'}
+[12.461201] (hb_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description', '--', '-j12', '-l12'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a:/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages:/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a:/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[12.534960] (-) TimerEvent: {}
+[12.542602] (hb_description) CommandEnded: {'returncode': 0}
+[12.544636] (hb_description) JobProgress: {'identifier': 'hb_description', 'progress': 'install'}
+[12.545384] (hb_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description'], 'cwd': '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description', 'env': OrderedDict([('HOSTNAME', 'KABE'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a:/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a/local/lib/python3.10/dist-packages:/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/task_1a:/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface:/opt/ros/humble')]), 'shell': False}
+[12.566431] (hb_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.567486] (hb_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.567968] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/task1a_bridge\n'}
+[12.584459] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/task1a_camera\n'}
+[12.604826] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/task1c_bridge\n'}
+[12.620332] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/task1c_camera\n'}
+[12.635137] (-) TimerEvent: {}
+[12.646001] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/camera_stream\n'}
+[12.663444] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/launch/task1a.launch.py\n'}
+[12.686538] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/launch/task1b.launch.py\n'}
+[12.700509] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/launch/task1c.launch.py\n'}
+[12.725347] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/ament_index/resource_index/package_run_dependencies/hb_description\n'}
+[12.735474] (-) TimerEvent: {}
+[12.748791] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/ament_index/resource_index/parent_prefix_path/hb_description\n'}
+[12.766415] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/environment/ament_prefix_path.sh\n'}
+[12.782885] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/environment/ament_prefix_path.dsv\n'}
+[12.796704] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/environment/path.sh\n'}
+[12.813803] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/environment/path.dsv\n'}
+[12.834516] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/local_setup.bash\n'}
+[12.835759] (-) TimerEvent: {}
+[12.850734] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/local_setup.sh\n'}
+[12.871769] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/local_setup.zsh\n'}
+[12.887209] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/local_setup.dsv\n'}
+[12.907084] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/package.dsv\n'}
+[12.923500] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/ament_index/resource_index/packages/hb_description\n'}
+[12.935974] (-) TimerEvent: {}
+[12.937545] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/cmake/hb_descriptionConfig.cmake\n'}
+[12.962897] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/cmake/hb_descriptionConfig-version.cmake\n'}
+[12.988170] (hb_description) StdoutLine: {'line': b'-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/package.xml\n'}
+[13.013964] (hb_description) StdoutLine: {'line': b'-- Up-to-date: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib\n'}
+[13.014972] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_generator_c.so\n'}
+[13.015248] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_generator_py.so\n'}
+[13.015464] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_c.so\n'}
+[13.015699] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libmujoco.so\n'}
+[13.015910] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libmujoco.so.3.4.0\n'}
+[13.021140] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_introspection_cpp.so\n'}
+[13.021748] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_cpp.so\n'}
+[13.022133] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_fastrtps_c.so\n'}
+[13.022352] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.022613] (hb_description) StdoutLine: {'line': b'-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_introspection_c.so\n'}
+[13.024667] (hb_description) CommandEnded: {'returncode': 0}
+[13.037222] (-) TimerEvent: {}
+[13.084407] (hb_description) JobEnded: {'identifier': 'hb_description', 'rc': 0}
+[13.086294] (-) EventReactorShutdown: {}

@@ -1,0 +1,11 @@
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/uninstall.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/task_1a_uninstall.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/ament_cmake_python_symlink_task_1a.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/ament_cmake_python_build_task_1a_egg.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/test.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/edit_cache.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/rebuild_cache.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/list_install_components.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/install.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/install/local.dir
+/workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/task_1a/CMakeFiles/install/strip.dir

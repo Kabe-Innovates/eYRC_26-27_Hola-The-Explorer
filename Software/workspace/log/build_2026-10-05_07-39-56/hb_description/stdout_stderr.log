@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/build/hb_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/task1a_bridge
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/task1a_camera
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/task1c_bridge
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/task1c_camera
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/hb_description/camera_stream
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/launch/task1a.launch.py
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/launch/task1b.launch.py
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/launch/task1c.launch.py
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/ament_index/resource_index/package_run_dependencies/hb_description
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/ament_index/resource_index/parent_prefix_path/hb_description
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/environment/ament_prefix_path.sh
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/environment/ament_prefix_path.dsv
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/environment/path.sh
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/environment/path.dsv
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/local_setup.bash
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/local_setup.sh
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/local_setup.zsh
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/local_setup.dsv
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/package.dsv
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/ament_index/resource_index/packages/hb_description
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/cmake/hb_descriptionConfig.cmake
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/cmake/hb_descriptionConfig-version.cmake
+-- Symlinking: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/share/hb_description/package.xml
+-- Up-to-date: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_generator_c.so
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_generator_py.so
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_c.so
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libmujoco.so
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libmujoco.so.3.4.0
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_introspection_cpp.so
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_cpp.so
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_fastrtps_c.so
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_fastrtps_cpp.so
+-- Installing: /workspace/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/hb_description/lib/libhb_source__rosidl_typesupport_introspection_c.so
